@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestAmazon">
+              <span class="suite-name border-passed">TestAmazon</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestAmazon">
+                    <span>D:\Deepa\Selenium\trial\config\Amazon.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestAmazon">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestAmazon">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestAmazon">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestAmazon">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestAmazon">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestAmazon">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAmazon" class="hide-methods passed suite-TestAmazon"> (hide)</a> <!-- hide-methods passed suite-TestAmazon -->
+                      <a href="#" panel-name="suite-TestAmazon" class="show-methods passed suite-TestAmazon"> (show)</a> <!-- show-methods passed suite-TestAmazon -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAmazon">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t1LaunchAmazonPage(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31)">t1LaunchAmazonPage(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t2LoginIncorrectUsername(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639)">t2LoginIncorrectUsername(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t3LoginIncorrectPassword(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4)">t3LoginIncorrectPassword(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t4LogincorrectPassword(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9)">t4LogincorrectPassword(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t5searchAmazon(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@59...)">t5searchAmazon(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@59...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t6AddOnProd(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f)">t6AddOnProd(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t7VerifyProduct(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a)">t7VerifyProduct(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t8validatebasket(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e)">t8validatebasket(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAmazon" title="testNG.amazon.AmazonNG" hash-for-method="t9reLoginAndValidate(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b)">t9reLoginAndValidate(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAmazon -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAmazon" class="panel TestAmazon">
+          <div class="suite-TestAmazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.amazon.AmazonNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="t1LaunchAmazonPage(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31)">
+                  </a> <!-- t1LaunchAmazonPage(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31) -->
+                  <span class="method-name">t1LaunchAmazonPage</span>
+                  <span class="parameters">(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31)</span>
+                  <em>
+(1.Launch www.amazon.com page and validate page header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t2LoginIncorrectUsername(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639)">
+                  </a> <!-- t2LoginIncorrectUsername(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639) -->
+                  <span class="method-name">t2LoginIncorrectUsername</span>
+                  <span class="parameters">(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639)</span>
+                  <em>
+(2.Click on login link and Provide incorrect username and validate error.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t3LoginIncorrectPassword(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4)">
+                  </a> <!-- t3LoginIncorrectPassword(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4) -->
+                  <span class="method-name">t3LoginIncorrectPassword</span>
+                  <span class="parameters">(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4)</span>
+                  <em>
+(3.Provide incorrect password and validate error.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t4LogincorrectPassword(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9)">
+                  </a> <!-- t4LogincorrectPassword(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9) -->
+                  <span class="method-name">t4LogincorrectPassword</span>
+                  <span class="parameters">(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9)</span>
+                  <em>
+(4.Provide correct username/password and validate home page header.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t5searchAmazon(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@59...)">
+                  </a> <!-- t5searchAmazon(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@59...) -->
+                  <span class="method-name">t5searchAmazon</span>
+                  <span class="parameters">(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@5945a7)</span>
+                  <em>
+(5.Search for iphone x 64 gb and click on 1st product and move to product page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t6AddOnProd(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f)">
+                  </a> <!-- t6AddOnProd(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f) -->
+                  <span class="method-name">t6AddOnProd</span>
+                  <span class="parameters">(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f)</span>
+                  <em>
+(6.Capture product name and price and add 1 quantity to basket)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t7VerifyProduct(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a)">
+                  </a> <!-- t7VerifyProduct(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a) -->
+                  <span class="method-name">t7VerifyProduct</span>
+                  <span class="parameters">(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a)</span>
+                  <em>
+(7.Validate product is added into basket on product page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t8validatebasket(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e)">
+                  </a> <!-- t8validatebasket(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e) -->
+                  <span class="method-name">t8validatebasket</span>
+                  <span class="parameters">(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e)</span>
+                  <em>
+(8.Vaidate product price and name on basket page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t9reLoginAndValidate(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b)">
+                  </a> <!-- t9reLoginAndValidate(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b) -->
+                  <span class="method-name">t9reLoginAndValidate</span>
+                  <span class="parameters">(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b)</span>
+                  <em>
+(9.Logout and login again validate product in basket is present or not.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAmazon-class-passed -->
+        </div> <!-- panel TestAmazon -->
+        <div panel-name="test-xml-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Deepa\Selenium\trial\config\Amazon.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestAmazon&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.amazon.AmazonNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon --&gt;
+&lt;/suite&gt; &lt;!-- TestAmazon --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAmazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAmazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAmazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAmazon');
+function tableData_TestAmazon() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 't2LoginIncorrectUsername')
+data.setCell(0, 2, 'testNG.amazon.AmazonNG')
+data.setCell(0, 3, 51241);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 't9reLoginAndValidate')
+data.setCell(1, 2, 'testNG.amazon.AmazonNG')
+data.setCell(1, 3, 23429);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 't4LogincorrectPassword')
+data.setCell(2, 2, 'testNG.amazon.AmazonNG')
+data.setCell(2, 3, 14614);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 't5searchAmazon')
+data.setCell(3, 2, 'testNG.amazon.AmazonNG')
+data.setCell(3, 3, 13024);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 't3LoginIncorrectPassword')
+data.setCell(4, 2, 'testNG.amazon.AmazonNG')
+data.setCell(4, 3, 11766);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 't6AddOnProd')
+data.setCell(5, 2, 'testNG.amazon.AmazonNG')
+data.setCell(5, 3, 11162);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 't1LaunchAmazonPage')
+data.setCell(6, 2, 'testNG.amazon.AmazonNG')
+data.setCell(6, 3, 9565);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 't8validatebasket')
+data.setCell(7, 2, 'testNG.amazon.AmazonNG')
+data.setCell(7, 3, 5004);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 't7VerifyProduct')
+data.setCell(8, 2, 'testNG.amazon.AmazonNG')
+data.setCell(8, 3, 1114);
+window.suiteTableData['TestAmazon']= { tableData: data, tableDiv: 'times-div-TestAmazon'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TestAmazon">
+              </div> <!-- times-div-TestAmazon -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAmazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAmazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.amazon.AmazonNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">t1LaunchAmazonPage(1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31)</span>
+                <span class="method-start">4883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t2LoginIncorrectUsername(2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639)</span>
+                <span class="method-start">14473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t3LoginIncorrectPassword(3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4)</span>
+                <span class="method-start">65734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t4LogincorrectPassword(4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9)</span>
+                <span class="method-start">77537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t5searchAmazon(5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@59...)</span>
+                <span class="method-start">92170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t6AddOnProd(6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f)</span>
+                <span class="method-start">105213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t7VerifyProduct(7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a)</span>
+                <span class="method-start">116392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t8validatebasket(8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e)</span>
+                <span class="method-start">117525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t9reLoginAndValidate(9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b)</span>
+                <span class="method-start">122547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">145980 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

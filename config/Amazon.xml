@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAmazon">
+	<listeners>
+		<listener class-name="utils.Listeners.TestListener"/>
+	</listeners>
+
+	<test name="Amazon">	
+		<classes>
+			<!-- <class name="testNG.amazon.AmazonNG"/> -->
+			<class name="testNG.amazon.AmazonNG"/>
+		</classes>
+		
+	</test>
+</suite>

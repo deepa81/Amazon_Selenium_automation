@@ -1,0 +1,28 @@
+[0409/125549.782:ERROR:process_info.cc(380)] UncheckedAllocate
+[0409/125549.783:ERROR:process_info.cc(380)] UncheckedAllocate
+[0409/125549.797:ERROR:file_io.cc(134)] WriteFile: Error (0x13D) while retrieving error. (0x5AD)
+[0409/125549.805:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0409/125549.797:ERROR:file_io.cc(134)] WriteFile: Error (0x3AFC) while retrieving error. (0x5AD)
+[0409/125549.806:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0412/132550.576:ERROR:process_info.cc(380)] UncheckedAllocate
+[0412/132712.280:ERROR:process_info.cc(380)] UncheckedAllocate
+[0412/132921.124:ERROR:process_info.cc(380)] UncheckedAllocate
+[0412/132921.484:ERROR:process_info.cc(380)] UncheckedAllocate
+[0412/170239.700:ERROR:process_info.cc(396)] NtQuerySystemInformation SystemExtendedHandleInformation: Insufficient system resources exist to complete the API. (0xc000009a)
+[0412/170406.391:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0412/170406.424:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[0412/172254.796:ERROR:process_info.cc(396)] NtQuerySystemInformation SystemExtendedHandleInformation: Insufficient system resources exist to complete the API. (0xc000009a)
+[0417/181739.164:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Users\DEEPAA~1\AppData\Local\Temp\scoped_dir18228_7784\Crashpad: Error (0x13D) while retrieving error. (0x5AA)
+[0417/181739.239:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Error (0x13D) while retrieving error. (0x6D)
+[0417/181739.468:ERROR:crashpad_client_win.cc(130)] crash server failed to launch, self-terminating
+[0419/114203.851:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0419/114203.898:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[0419/114207.454:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0419/114207.504:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[0423/115027.244:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0424/175857.598:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0424/175857.644:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[0425/161323.022:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0425/161323.084:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[0519/193335.277:ERROR:process_info.cc(380)] UncheckedAllocate
+[0520/023556.914:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

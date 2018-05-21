@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  Amazon</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Amazon</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 21 11:44:01 SGT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>155 seconds (155533 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t1LaunchAmazonPage()'><b>t1LaunchAmazonPage</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 1.Launch www.amazon.com page and validate page header<br>Parameters: 1.Launch “www.amazon.com” page and validate page header, amazon.AmazonBean@c3cb31</td>
+<td></td>
+<td>9</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t2LoginIncorrectUsername()'><b>t2LoginIncorrectUsername</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 2.Click on login link and Provide incorrect username and validate error.<br>Parameters: 2.Click on login link and Provide incorrect username and validate error., amazon.AmazonBean@2cc639</td>
+<td></td>
+<td>51</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t3LoginIncorrectPassword()'><b>t3LoginIncorrectPassword</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 3.Provide incorrect password and validate error.<br>Parameters: 3.Provide incorrect password and validate error., amazon.AmazonBean@1d418e4</td>
+<td></td>
+<td>11</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t4LogincorrectPassword()'><b>t4LogincorrectPassword</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 4.Provide correct username/password and validate home page header.<br>Parameters: 4.Provide correct username/password and validate home page header., amazon.AmazonBean@1e547a9</td>
+<td></td>
+<td>14</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t5searchAmazon()'><b>t5searchAmazon</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 5.Search for iphone x 64 gb and click on 1st product and move to product page.<br>Parameters: 5.Search for iphone x 64 gb and click on 1st product and move to product page., amazon.AmazonBean@5945a7</td>
+<td></td>
+<td>13</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t6AddOnProd()'><b>t6AddOnProd</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 6.Capture product name and price and add 1 quantity to basket<br>Parameters: 6.Capture product name and price and add 1 quantity to basket, amazon.AmazonBean@d172f</td>
+<td></td>
+<td>11</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t7VerifyProduct()'><b>t7VerifyProduct</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 7.Validate product is added into basket on product page<br>Parameters: 7.Validate product is added into basket on product page, amazon.AmazonBean@174d36a</td>
+<td></td>
+<td>1</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t8validatebasket()'><b>t8validatebasket</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 8.Vaidate product price and name on basket page.<br>Parameters: 8.Vaidate product price and name on basket page., amazon.AmazonBean@5ee75e</td>
+<td></td>
+<td>5</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+<tr>
+<td title='testNG.amazon.AmazonNG.t9reLoginAndValidate()'><b>t9reLoginAndValidate</b><br>Test class: testNG.amazon.AmazonNG<br>Test method: 9.Logout and login again validate product in basket is present or not.<br>Parameters: 9.Logout and login again validate product in basket is present or not., amazon.AmazonBean@6f8b8b</td>
+<td></td>
+<td>23</td>
+<td>testNG.amazon.AmazonNG@1820e51</td></tr>
+</table><p>
+</body>
+</html>

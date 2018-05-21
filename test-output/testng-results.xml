@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAmazon" duration-ms="155533" started-at="2018-05-21T03:44:01Z" finished-at="2018-05-21T03:46:36Z">
+    <groups>
+    </groups>
+    <test name="Amazon" duration-ms="155533" started-at="2018-05-21T03:44:01Z" finished-at="2018-05-21T03:46:36Z">
+      <class name="testNG.amazon.AmazonNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="beforeTest" is-config="true" duration-ms="4358" started-at="2018-05-21T03:44:01Z" finished-at="2018-05-21T03:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="t1LaunchAmazonPage(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t1LaunchAmazonPage" duration-ms="9565" started-at="2018-05-21T03:44:06Z" description="1.Launch www.amazon.com page and validate page header" data-provider="amazon" finished-at="2018-05-21T03:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.Launch “www.amazon.com” page and validate page header]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@c3cb31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1LaunchAmazonPage -->
+        <test-method status="PASS" signature="t2LoginIncorrectUsername(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t2LoginIncorrectUsername" duration-ms="51241" started-at="2018-05-21T03:44:15Z" description="2.Click on login link and Provide incorrect username and validate error." data-provider="amazon" finished-at="2018-05-21T03:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.Click on login link and Provide incorrect username and validate error.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@2cc639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2LoginIncorrectUsername -->
+        <test-method status="PASS" signature="t3LoginIncorrectPassword(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t3LoginIncorrectPassword" duration-ms="11766" started-at="2018-05-21T03:45:06Z" description="3.Provide incorrect password and validate error." data-provider="amazon" finished-at="2018-05-21T03:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.Provide incorrect password and validate error.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@1d418e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3LoginIncorrectPassword -->
+        <test-method status="PASS" signature="t4LogincorrectPassword(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t4LogincorrectPassword" duration-ms="14614" started-at="2018-05-21T03:45:18Z" description="4.Provide correct username/password and validate home page header." data-provider="amazon" finished-at="2018-05-21T03:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.Provide correct username/password and validate home page header.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@1e547a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4LogincorrectPassword -->
+        <test-method status="PASS" signature="t5searchAmazon(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t5searchAmazon" duration-ms="13024" started-at="2018-05-21T03:45:33Z" description="5.Search for iphone x 64 gb and click on 1st product and move to product page." data-provider="amazon" finished-at="2018-05-21T03:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.Search for iphone x 64 gb and click on 1st product and move to product page.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@5945a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5searchAmazon -->
+        <test-method status="PASS" signature="t6AddOnProd(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t6AddOnProd" duration-ms="11162" started-at="2018-05-21T03:45:46Z" description="6.Capture product name and price and add 1 quantity to basket" data-provider="amazon" finished-at="2018-05-21T03:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.Capture product name and price and add 1 quantity to basket]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@d172f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t6AddOnProd -->
+        <test-method status="PASS" signature="t7VerifyProduct(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t7VerifyProduct" duration-ms="1114" started-at="2018-05-21T03:45:57Z" description="7.Validate product is added into basket on product page" data-provider="amazon" finished-at="2018-05-21T03:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.Validate product is added into basket on product page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@174d36a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t7VerifyProduct -->
+        <test-method status="PASS" signature="t8validatebasket(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t8validatebasket" duration-ms="5004" started-at="2018-05-21T03:45:58Z" description="8.Vaidate product price and name on basket page." data-provider="amazon" finished-at="2018-05-21T03:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.Vaidate product price and name on basket page.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@5ee75e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t8validatebasket -->
+        <test-method status="PASS" signature="t9reLoginAndValidate(java.lang.String, amazon.AmazonBean)[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="t9reLoginAndValidate" duration-ms="23429" started-at="2018-05-21T03:46:03Z" description="9.Logout and login again validate product in basket is present or not." data-provider="amazon" finished-at="2018-05-21T03:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.Logout and login again validate product in basket is present or not.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.AmazonBean@6f8b8b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t9reLoginAndValidate -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.amazon.AmazonNG@1820e51]" name="afterTest" is-config="true" duration-ms="9549" started-at="2018-05-21T03:46:27Z" finished-at="2018-05-21T03:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNG.amazon.AmazonNG -->
+    </test> <!-- Amazon -->
+  </suite> <!-- TestAmazon -->
+</testng-results>

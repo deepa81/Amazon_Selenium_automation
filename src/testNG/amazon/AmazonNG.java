@@ -69,7 +69,7 @@ public class AmazonNG {
 		try {
 			Login login = new Login();
 			System.setProperty("webdriver.chrome.driver",
-					"D:\\Deepa\\Selenium\\trial\\ExtentReports\\chromedriver_win32 (3)\\chromedriver.exe");
+					"ExtentReports\\chromedriver_win32 (3)\\chromedriver.exe");
 			driver = new ChromeDriver();
 			login.invokeBrowser(driver);
 
